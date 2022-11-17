@@ -1,0 +1,153 @@
+@media screen and (max-width:480px) {
+    /* navbar */
+    .logo{
+        height: auto;
+        width: 10%;
+    }
+    .left-navitems{
+        width:20%;
+    }
+    .navitem-references a, .navitem-exercise a,.navitem-videos a{
+        display: none;
+    }
+    .upgrade-btn,.get-certified-btn,.free-website-btn{
+        display: none;
+    }
+    .login-btn{
+        width: auto;
+        height: auto;
+    }
+    /* content starts  */
+    .left-section{
+        width: 100%;
+    }
+    .left-section button{
+        width: 60%;
+    }
+    .right-section{
+        display: none;
+    }
+    /* programming languages grid */
+    .main-content-div{
+        padding: 1rem;
+    }
+    .outer{
+        width: 100%;
+        padding: 0.7rem 0.5rem;
+    }
+    .inner{
+        padding:0.5rem;
+    }
+    /* pl grids  */
+    .grid{
+        padding: 1.5rem;
+    }
+    .outside {
+        width: 100%;
+        padding: 1rem 0;
+    }
+    .inside{
+        padding:1rem;
+    }
+    /* w3schools code editor */
+    .code-editor-box{
+        width: 80%;
+    }
+    .fa-circle{
+        display: none;
+    }
+    .buttons-container{
+        width: 80%;
+    }
+    .buttons-container button{
+        width: 100%;
+    }
+    /* w3schools spaces */
+    .get-started-for-free{
+        width: 80%;
+    }
+
+    /* mylearning */
+    .mylearning-image img{
+        width: 100%;
+    }
+    .mylearning-signup-for-free{
+        width: 80%;
+    }
+
+    /* become a pro user */
+    .formlist{
+        width: 80%;
+    }
+    .learn-more{
+        width: 80%;
+    }
+
+    /* exercise and quizzes */
+    .exercise-and-quizzes{
+        padding:1rem;
+    }
+    .subtitle{
+        padding:2rem 0 0;
+    }
+    .block{
+        width:100%;
+    }
+    .exercise,.quizzes{
+        padding: 1rem;
+    }
+    /* web templates section  */
+    .web-templates{
+        padding:1rem;
+    }
+    .browse-templates{
+        width: 80%;
+    }
+    /* kickstart your career */
+    .kickstart-your-career{
+        padding: 1rem;
+    }
+    .kickstart-your-career h2{
+        font-size: 2rem ;
+        padding: 0.5rem 0 1rem;
+    }
+    .get-started-to-kick-button{
+        text-align: center;
+        margin: auto;
+    }
+    .get-started-tokick{
+        width: 90%;
+        padding: 1rem 3rem;
+    }
+    /* how to */
+    .howto{
+        padding:1rem;
+    }
+    .howto-box{
+        width: 90%;
+    }
+    .stand{
+        height: 30px;
+        width: 10%;
+    }
+    .learn-how-to-button button{
+        width: 80%;
+        padding: 1rem;
+    }
+    /* footer  */
+    .left-buttons{
+        width:100%;
+    }
+    .left-buttons button{
+        display: block;
+        width: 100%;
+    }
+    .right-buttons{
+        width: 100%;
+        padding-left: 4.5rem;
+    }
+    .fa-thumbs-up{
+        font-size: 2rem;
+    }
+
+}

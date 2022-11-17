@@ -5,25 +5,654 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>w3schools.com-clone</title>
+    <title>w3schoolsclone-try</title>
+    <link rel="stylesheet" href="/assests/css/style.css">
+    <link rel="stylesheet" href="/assests/css/responsive.css">
+    <script src="https://kit.fontawesome.com/d8d01cc55f.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <h1>w3schools</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur laboriosam reiciendis harum maiores, dolor
-        iusto aliquam praesentium, ipsum, ea quam inventore autem optio quia. Distinctio omnis qui libero modi. Nesciunt
-        mollitia iusto laborum quos at. Harum obcaecati quo id at ex voluptatum adipisci quas, distinctio aut, corporis,
-        dignissimos ea! Mollitia sit hic facilis cumque consectetur molestiae ex illum eum earum cupiditate sed
-        asperiores reprehenderit maiores laborum dolorum soluta quia at atque recusandae dignissimos distinctio,
-        sapiente rerum iure! Deleniti architecto, impedit harum eligendi officiis voluptates quasi sed hic expedita
-        eveniet dignissimos laudantium veniam adipisci eum numquam placeat delectus sunt similique vel sequi, error
-        consequuntur corporis sit exercitationem. Veniam ipsum molestias, enim suscipit voluptas iste ea ullam, quod
-        ducimus modi, aperiam asperiores eveniet minima. Eaque quaerat earum totam veniam, nostrum excepturi debitis at
-        iste ab laborum facere vel omnis ea autem animi adipisci accusantium, recusandae possimus. Explicabo aliquam,
-        praesentium doloremque et minus, atque delectus eligendi fugiat tempora quidem eveniet. Nobis quos maiores
-        soluta quidem, pariatur esse odio quae provident dolorum tenetur doloremque natus suscipit, aliquid quis at
-        tempora illo minus qui assumenda libero vitae. Quisquam dolore laboriosam veritatis dolorum unde magnam debitis
-        similique temporibus quo, illo amet a velit nam nisi laborum.</p>
+
+    <header>
+        <div class="navbar-wraper">
+            <div class="logo">
+                <a href="#"><img src="/uploads/w3-logo.jpg" alt="logo"></a>
+            </div>
+            <div class="left-navitems">
+                <ul>
+                    <li class="navitem-tutorials"><a href="#">Tutorials</a></li>
+                    <li class="navitem-references"><a href="#">References</a></li>
+                    <li class="navitem-exercise"><a href="#">Exercise</a></li>
+                    <li class="navitem-videos"><a href="#">Videos</a></li>
+                </ul>
+            </div>
+            <div class="right-navitems">
+                <ul>
+                    <li><a href="#"><i class="fa-solid fa-circle-half-stroke"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-firefox"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                    <li><button class="upgrade-btn white">Upgrade</button></li>
+                    <li><button class="get-certified-btn pink">Get Certified</button></li>
+                    <li><button class="free-website-btn yellow">Free Website</button></li>
+                    <li><button class="login-btn green">Log in</button></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section>
+
+            <div class="learn-to-code">
+                <div class="title-and-subtitle">
+                    <h1>Learn to Code</h1>
+                    <h3>With the world largest web developer site.</h3>
+                </div>
+                <div class="search-box">
+                    <form action="#">
+                        <input type="text" placeholder="Search our tutorials e.g. HTML">
+                        <button action="#"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+                <div class="where-to-start">
+                    <a href="#">Not sure where to begin?</a>
+                </div>
+            </div>
+            <svg style="background-color:#D9EEE1;" width="100%" height="70" viewbox="0 0 100 100"
+                preserveAspectRatio="none">
+                <path id="wavepath" d="M0,0  L110,0C35,150 35,0 0,100z" fill="#282A35" />
+            </svg>
+        </section>
+        <!--  learn to code section ends -->
+
+        <!-- section html starts -->
+        <section>
+            <div class="main-content-div c-html">
+                <div class="left-section">
+                    <h1>HTML</h1>
+                    <h3>The language for building web pages.</h3>
+                    <div class="buttons">
+                        <button class="green">Learn HTML</button>
+                        <button class="yellow">Video Tutorial</button>
+                        <button class="black">HTML References</button>
+                        <button class="pink">Get Certified</button>
+                    </div>
+                </div>
+                <div class="right-section">
+                    <div class="code-wrapper">
+                        <h2>HTML Example:</h2>
+                        <div class="code">
+                            <p>
+                                &lt;!DOCTYPE html&gt; <br>
+                                &lt;html&gt;<br>
+                                &lt;title>HTML Tutorial&lt;/title&gt;<br>
+                                &lt;body&gt;<br> <br>
+
+                                &lt;h1&gt;This is a heading&lt;/h1&gt; <br>
+                                &lt;p&gt;This is a paragraph.&lt;/p&gt; <br> <br>
+
+                                &lt;/body&gt;<br>
+                                &lt;/html&gt;<br>
+                            </p>
+                        </div>
+                        <div class="try-yourself-btn">
+                            <button action="#" class="green">Try Yourself</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section html ends -->
+
+        <!-- section css starts -->
+        <section>
+            <div class="main-content-div css">
+                <div class="left-section">
+                    <h1>CSS</h1>
+                    <h3>The language for styling web pages.</h3>
+                    <div class="buttons">
+                        <button class="green">Learn CSS</button>
+                        <button class="black">CSS References</button>
+                        <button class="pink">Get Certified</button>
+                    </div>
+                </div>
+                <div class="right-section">
+                    <div class="code-wrapper">
+                        <h2>CSS Example:</h2>
+                        <div class="code">
+                            <p>
+                                body {<br>
+                                background-color: lightblue;<br>
+                                }
+                                <br><br>
+                                h1 {<br>
+                                color: white;<br>
+                                text-align: center; <br>
+                                }
+                                <br> <br>
+                                p {<br>
+                                font-family: verdana; <br>
+                                } <br>
+                            </p>
+                        </div>
+                        <div class="try-yourself-btn">
+                            <button class="green">Try Yourself</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section css ends -->
+
+        <!-- section javascript starts -->
+        <section>
+            <div class="main-content-div javascript">
+                <div class="left-section">
+                    <h1>Javascript</h1>
+                    <h3>A language for programming web pages.</h3>
+                    <div class="buttons">
+                        <button class="green">Learn Javascript</button>
+                        <button class="black">Javascript References</button>
+                        <button class="pink">Get Certified</button>
+                    </div>
+                </div>
+                <div class="right-section">
+                    <div class="code-wrapper">
+                        <h2>Javascript Example:</h2>
+                        <div class="code">
+                            <p>
+                                &lt;button onclick="myFunction()"&gt;Click Me!&lt;/button&gt; <br><br>
+
+                                &lt;script&gt; <br>
+                                function myFunction() { <br>
+                                let x = document.getElementById("demo"); <br>
+                                x.style.fontSize = "25px"; <br>
+                                x.style.color = "red"; <br>
+                                } <br>
+                                &lt;/script&gt; <br>
+                            </p>
+                        </div>
+                        <div class="try-yourself-btn">
+                            <button class="green">Try Yourself</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section javascript ends -->
+
+        <!-- section python starts -->
+        <section>
+            <div class="main-content-div python">
+                <div class="left-section">
+                    <h1>Python</h1>
+                    <h3>A popular programming language.</h3>
+                    <div class="buttons">
+                        <button class="green">Learn Python</button>
+                        <button class="black">Python References</button>
+                        <button class="pink">Get Certified</button>
+                    </div>
+                </div>
+                <div class="right-section">
+                    <div class="code-wrapper">
+                        <h2>Python Example:</h2>
+                        <div class="code">
+                            <p>
+                                if 5 > 2: <br>
+                                print("Five is greater than two!") <br> <br> <br> <br> <br>
+                            </p>
+                        </div>
+                        <div class="try-yourself-btn">
+                            <button class="green">Try Yourself</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section python ends -->
+
+        <!-- section sql starts -->
+        <section>
+            <div class="main-content-div sql">
+                <div class="left-section">
+                    <h1>SQL</h1>
+                    <h3>A language for accessing database.</h3>
+                    <div class="buttons">
+                        <button class="green">Learn SQL</button>
+                        <button class="black">SQL References</button>
+                        <button class="pink">Get Certified</button>
+                    </div>
+                </div>
+                <div class="right-section">
+                    <div class="code-wrapper">
+                        <h2>SQL Example:</h2>
+                        <div class="code">
+                            <p>
+                                SELECT * FROM Customers <br>
+                                WHERE Country='Mexico'; <br> <br> <br> <br> <br>
+                            </p>
+                        </div>
+                        <div class="try-yourself-btn">
+                            <button class="green">Try Yourself</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section sql ends -->
+
+        <!-- section 6 languages grid starts -->
+        <section>
+            <div class="main-content-div">
+                <!-- php starts -->
+                <div class="outer">
+                    <div class="php inner">
+                        <h1>PHP</h1>
+                        <h2>A web server programming language.</h2>
+                        <button><a href="#">Learn PHP</a></button>
+                    </div>
+                </div>
+                <!-- php ends -->
+                <!-- jquery starts -->
+                <div class="outer">
+                    <div class="jquery inner">
+                        <h1>jQuery</h1>
+                        <h2>A JS library for developing web pages.</h2>
+                        <button><a href="#">Learn jQuery</a></button>
+                    </div>
+                </div>
+                <!-- jquery ends -->
+
+                <!-- java starts -->
+                <div class="outer">
+                    <div class="java inner">
+                        <h1>Java</h1>
+                        <h2>A programming language.</h2>
+                        <button><a href="#">Learn Java</a></button>
+                    </div>
+                </div>
+                <!-- java ends -->
+
+                <!-- c_++ starts -->
+                <div class="outer">
+                    <div class="cplusplus inner">
+                        <h1>C++</h1>
+                        <h2>A programming language.</h2>
+                        <button><a href="#">Learn C++</a></button>
+                    </div>
+                </div>
+                <!-- c_++ ends -->
+
+                <!-- w3.css starts -->
+                <div class="outer">
+                    <div class="w3css inner">
+                        <h1>W3.CSS</h1>
+                        <h2>A CSS framework for faster and better responsive web pages</h2>
+                        <button><a href="#">Learn W3.CSS</a></button>
+                    </div>
+                </div>
+                <!-- w3.css ends -->
+
+                <!-- bootstrap starts -->
+                <div class="outer">
+                    <div class="bootstrap inner">
+                        <h1>Bootstrap</h1>
+                        <h2>A CSS framework for designing better web pages</h2>
+                        <button><a href="#">Learn Bootstrap</a></button>
+                    </div>
+                </div>
+                <!-- bootstrap ends -->
+                <!-- c starts -->
+                <div class="outer">
+                    <div class="c inner">
+                        <h1>C</h1>
+                    </div>
+                </div>
+                <!-- c ends -->
+
+                <!-- csharp starts -->
+                <div class="outer">
+                    <div class="csharp inner">
+                        <h1>C#</h1>
+                    </div>
+                </div>
+                <!-- csharp ends -->
+            </div>
+        </section>
+        <!-- section 6 languages grid ends -->
+
+        <!-- section languages grids starts -->
+        <div class="grid">
+            <!--R-->
+            <div class="outside">
+                <div class="inside r">
+                    <h1>R</h1>
+                </div>
+            </div>
+            <!--Kotlin-->
+            <div class="outside">
+                <div class="inside kotlin">
+
+                    <h1>Kotlin</h1>
+                </div>
+            </div>
+            <!--Node Js-->
+            <div class="outside">
+                <div class="inside nodejs">
+
+                    <h1>Node.js</h1>
+                </div>
+            </div>
+            <!--React-->
+            <div class="outside">
+                <div class="inside react">
+
+                    <h1>React</h1>
+                </div>
+            </div>
+            <!--json-->
+            <div class="outside">
+                <div class="inside json">
+                    <h1>JSON</h1>
+                </div>
+            </div>
+            <!--angularjs-->
+            <div class="outside">
+                <div class="inside angularjs">
+                    <h1>AngularJS</h1>
+                </div>
+            </div>
+
+            <!--xml-->
+            <div class="outside">
+                <div class="inside xml">
+                    <h1>XML</h1>
+                </div>
+            </div>
+
+            <!--mysql-->
+            <div class="outside">
+                <div class="inside mysql">
+                    <h1>MySQL</h1>
+                </div>
+            </div>
+
+            <!--saas-->
+            <div class="outside">
+                <div class="inside saas">
+                    <h1>SAAS</h1>
+                </div>
+            </div>
+
+            <!--icon-->
+            <div class="outside">
+                <div class="inside icon">
+                    <h1>Icon</h1>
+                </div>
+            </div>
+
+            <!--RWD-->
+            <div class="outside">
+                <div class="inside rwd">
+                    <h1>RWD</h1>
+                </div>
+            </div>
+
+            <!--graphics-->
+            <div class="outside">
+                <div class="inside graphics">
+                    <h1>Graphics</h1>
+                </div>
+            </div>
+
+            <div class="outer">
+                <div class="excel inner">
+                    <h1>Excel</h1>
+                </div>
+            </div>
+
+            <div class="outer">
+                <div class="googlesheets inner">
+                    <h1>Google Sheets</h1>
+                </div>
+            </div>
+
+            <div class="outer">
+                <div class="machinelearning inner">
+                    <h1>Machine Learning</h1>
+                </div>
+            </div>
+
+            <div class="outer">
+                <div class="ai inner">
+                    <h1>Artificial Intelligence</h1>
+                </div>
+            </div>
+
+        </div>
+        <!-- section languages grids ends -->
+
+        <!-- code editor section starts -->
+        <section>
+            <div class="code-editor">
+                <h1>Code Editor</h1>
+                <h3>With our online code editor, you can edit code and view the result in your browser</h3>
+                <div class="code-editor-box">
+                    <div class="three-dots">
+                        <i class="fa-solid fa-circle red-circle"></i>
+                        <i class="fa-solid fa-circle yellow-circle"></i>
+                        <i class="fa-solid fa-circle green-circle"></i>
+                    </div>
+                    <div class="addressbar">
+                        <p>www.w3schools.com/tryit/</p>
+                    </div>
+                    <div class="buttons-frontend-backend">
+                        <button class="frontend">Frontend</button>
+                        <button class="backend">Backend</button>
+                    </div>
+                    <div class="code-editor-box-gif-container">
+                        <img src="/uploads/w3-codeeditorgif.gif" alt="codeeditor">
+                    </div>
+                </div>
+            </div>
+            <div class="buttons-outside">
+                <div class="buttons-container">
+                    <button class="frontend-editor"><a href="#">Try Frontend Editor(HTML,CSS,JS)</a></button>
+                    <button class="backend-editor"><a href="#">Try Backend Editor(Python,PHP,Java,C..)</a></button>
+                </div>
+            </div>
+        </section>
+        <!-- code editor section ends -->
+
+        <!-- w3 spaces section starts -->
+        <section>
+            <div class="w3schoolspaces">
+                <h1>W3Schools spaces</h1>
+                <h3>Build your own website with W3Schools Spaces.</h3>
+                <div class="w3schools-spaces-img">
+                    <img src="/uploads/w3-spaces.png" alt="Spaces">
+                    <img src="/uploads/w3-spaces-template.png" alt="howitworks">
+                    <button class="get-started-for-free">Get Started for Free</button>
+                </div>
+            </div>
+        </section>
+        <!-- w3 spaces section ends -->
+
+        <!-- mylearning section starts -->
+        <section>
+            <div class="mylearning-wrapper">
+                <h1>My Learning</h1>
+                <h3>Track your progress with the free "My Learning" program here at W3Schools. <br>
+                    Log in to your account, and start earning points!</h3>
+                <div class="mylearning-image">
+                    <img src="/uploads/w3-mylearning.png" alt="mylearningpoints">
+                    <button class="mylearning-signup-for-free">Sign Up for Free</button>
+                </div>
+            </div>
+        </section>
+        <!-- mylearning section ends -->
+
+        <!-- become pro user section  -->
+        <section>
+            <div class="become-pro-user">
+                <h1>Become a Pro User</h1>
+                <h3>And unlock powerful features:</h3>
+                <div class="formlist">
+                    <form action="#">
+                        <input type="checkbox" disabled checked>Browse W3Schools without ads <br>
+                        <input type="checkbox" disabled checked>Website hosting (Includes <u>Spaces</u> PRO) <br>
+                        <input type="checkbox" disabled checked> Access to our <u>HTML Video Tutorial</u> <br>
+                    </form>
+                </div>
+                <div class="learn-more-button">
+                    <button class="learn-more">Learn More</button>
+                </div>
+
+            </div>
+        </section>
+        <!-- become pro user ends -->
+
+        <!-- color picker section  starts-->
+        <section>
+            <div class="colorpicker">
+                <h1>Color Picker</h1>
+                <h3>W3Schools famous color picker.</h3>
+                <div class="color-picker-img">
+                    <img src="/uploads/w3-colorpicker.png" alt="color-picker">
+                </div>
+            </div>
+        </section>
+        <!-- color picker section ends -->
+
+        <!-- code game section starts -->
+        <section>
+            <div class="code-game">
+                <h1>Code Game</h1>
+                <h2>Help the Lynx collect pine cones!</h2>
+                <div class="code-game-img">
+                    <img src="/uploads/w3-codegame-lynx.png" alt="lynx">
+                    <button class="play-game">Play Game</button>
+                </div>
+            </div>
+        </section>
+        <!-- code game section ends -->
+
+        <!-- exercise and quizzes secion starts -->
+        <div class="exercise-and-quizzes">
+            <div class="title-and-subtitle">
+                <h1 class="title">Exercises and Quizzes </h1>
+                <h2 class="subtitle">Test your skills</h2>
+            </div>
+            <div class="exercise-and-quizzes-blocks">
+                <div class="block">
+                    <div class="exercise">
+                        <h1>Exercises</h1>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="quizzes">
+                        <h1>Quizzes</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- exercise and quizzes secion ends -->
+
+        <!-- web templates section starts -->
+        <section>
+            <div class="web-templates">
+                <h1>Web Templates</h1>
+                <h3>Browse our selection of free responsive HTML Templates</h3>
+                <div class="web-templates-image">
+                    <img src="/uploads/w3-web-templates.jpg" alt="">
+                </div>
+                <button class="browse-templates">Browse Templates</button>
+            </div>
+        </section>
+        <!-- web templates section ends -->
+
+        <!-- kickstart your career section starts -->
+        <section>
+            <div class="kickstart-your-career">
+                <h1>Kickstart your career</h1>
+                <h2>Get certified by completing a course</h2>
+                <div class="get-started-to-kick-button">
+                    <button class="get-started-tokick">Get Started</button>
+                </div>
+            </div>
+        </section>
+        <!-- kickstart your career section ends -->
+
+        <!-- how to section starts -->
+        <section>
+            <div class="howto">
+                <h1>How to Section</h1>
+                <h2>Code snippets for HTML, CSS and JavaScript</h2>
+                <h3>For example, how to create a slideshow:</h3>
+                <div class="howto-box">
+                    <div class="three-dots">
+                        <i class="fa-solid fa-circle red-circle"></i>
+                        <i class="fa-solid fa-circle yellow-circle"></i>
+                        <i class="fa-solid fa-circle green-circle"></i>
+                    </div>
+                    <div class="addressbar">
+                        <p>www.w3schools.com/howto/</p>
+                    </div>
+                    <div class="howto-image">
+                        <img src="/uploads/w3-howtosection.jpg" alt="how-to-section" class="slideshow">
+                    </div>
+                    <div class="bottom-circle-div">
+                        <i class="fa-solid fa-circle bottom-circle"></i>
+                        <i class="fa-solid fa-circle bottom-circle"></i>
+                        <i class="fa-solid fa-circle bottom-circle"></i>
+                    </div>
+                </div>
+                <div class="stand">
+                    <h1> </h1>
+                </div>
+                <div class="learn-how-to-button">
+                    <button>Learn How To</button>
+                </div>
+
+            </div>
+        </section>
+        <!-- how to section ends -->
+    </main>
+
+    <footer>
+        <div class="footer-buttons">
+            <div class="left-buttons">
+                <button class="quizzes-fot">Quizzes</button>
+                <button class="exercises-fot">Exercises</button>
+                <button class="certificate-fot">Certificate</button>
+                <button class="upgrade-fot">Upgrade</button>
+                <button class="space-fot">Spaces</button>
+                <button class="support-fot">Support</button>
+                <button class="newsletter-fot">Newsletter</button>
+            </div>
+
+            <div class="right-buttons">
+                <button class="forum-fot">Forum</button>
+                <button class="about">About</button>
+            </div>
+        </div>
+        <div class="social-media-contacts">
+            <i class="fa-brands fa-facebook social"></i>
+            <i class="fa-brands fa-instagram social"></i>
+            <i class="fa-brands fa-linkedin social"></i>
+            <i class="fa-brands fa-discord social"></i>
+
+        </div>
+        <div class="copyright-section">
+            <p>W3Schools is optimized for learning, testing, and training. Examples might be simplified to improve reading and
+                basic understanding. Tutorials, references, and examples are constantly reviewed to avoid errors, but we
+                cannot warrant full correctness of all content. While using this site, you agree to have read and
+                accepted our <u>terms of use, cookie and privacy policy</u>. <br>
+                <u>Copyright 1999-2022</u> by Refsnes Data. All Rights Reserved.
+            <br> <br>
+            <i class="fa-solid fa-thumbs-up"></i> </p>
+        </div>
+    </footer>
 </body>
 
 </html>
