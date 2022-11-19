@@ -1,153 +1,826 @@
-@media screen and (max-width:480px) {
+@media screen and (max-width: 1500px) {
+
     /* navbar */
-    .logo{
+    .logo {
         height: auto;
-        width: 10%;
+        width: 5%;
     }
-    .left-navitems{
-        width:20%;
+
+    .left-navitems {
+        width: 40%;
+        display: inline;
     }
-    .navitem-references a, .navitem-exercise a,.navitem-videos a{
-        display: none;
+
+    .right-navitems {
+        width: 55%;
+        display: inline;
     }
-    .upgrade-btn,.get-certified-btn,.free-website-btn{
-        display: none;
-    }
-    .login-btn{
-        width: auto;
-        height: auto;
-    }
-    /* content starts  */
-    .left-section{
-        width: 100%;
-    }
-    .left-section button{
-        width: 60%;
-    }
-    .right-section{
-        display: none;
-    }
+
     /* programming languages grid */
-    .main-content-div{
-        padding: 1rem;
-    }
-    .outer{
-        width: 100%;
-        padding: 0.7rem 0.5rem;
-    }
-    .inner{
-        padding:0.5rem;
-    }
-    /* pl grids  */
-    .grid{
-        padding: 1.5rem;
-    }
-    .outside {
-        width: 100%;
-        padding: 1rem 0;
-    }
-    .inside{
-        padding:1rem;
-    }
-    /* w3schools code editor */
-    .code-editor-box{
-        width: 80%;
-    }
-    .fa-circle{
-        display: none;
-    }
-    .buttons-container{
-        width: 80%;
-    }
-    .buttons-container button{
-        width: 100%;
-    }
-    /* w3schools spaces */
-    .get-started-for-free{
-        width: 80%;
+    .main-content-div {
+        padding: 2rem;
     }
 
-    /* mylearning */
-    .mylearning-image img{
-        width: 100%;
-    }
-    .mylearning-signup-for-free{
-        width: 80%;
+    .outer {
+        width: 50%;
+        padding: 0.7rem 1rem;
     }
 
-    /* become a pro user */
-    .formlist{
-        width: 80%;
-    }
-    .learn-more{
-        width: 80%;
-    }
-
-    /* exercise and quizzes */
-    .exercise-and-quizzes{
-        padding:1rem;
-    }
-    .subtitle{
-        padding:2rem 0 0;
-    }
-    .block{
-        width:100%;
-    }
-    .exercise,.quizzes{
+    .inner {
         padding: 1rem;
     }
-    /* web templates section  */
-    .web-templates{
-        padding:1rem;
-    }
-    .browse-templates{
-        width: 80%;
-    }
-    /* kickstart your career */
-    .kickstart-your-career{
-        padding: 1rem;
-    }
-    .kickstart-your-career h2{
-        font-size: 2rem ;
-        padding: 0.5rem 0 1rem;
-    }
-    .get-started-to-kick-button{
-        text-align: center;
-        margin: auto;
-    }
-    .get-started-tokick{
-        width: 90%;
-        padding: 1rem 3rem;
-    }
-    /* how to */
-    .howto{
-        padding:1rem;
-    }
-    .howto-box{
-        width: 90%;
-    }
-    .stand{
-        height: 30px;
-        width: 10%;
-    }
-    .learn-how-to-button button{
-        width: 80%;
-        padding: 1rem;
-    }
-    /* footer  */
-    .left-buttons{
-        width:100%;
-    }
-    .left-buttons button{
-        display: block;
-        width: 100%;
-    }
-    .right-buttons{
-        width: 100%;
-        padding-left: 4.5rem;
-    }
-    .fa-thumbs-up{
-        font-size: 2rem;
-    }
-
 }
+
+    @media screen and (max-width: 1200px) {
+
+        /* navbar */
+        .logo {
+            height: auto;
+            width: 10%;
+        }
+
+        .left-navitems {
+            width: 40%;
+            display: inline;
+        }
+
+        .navitem-videos a {
+            display: none;
+        }
+
+        .upgrade-btn,
+        .get-certified-btn {
+            display: none;
+        }
+
+        .right-navitems {
+            width: 50%;
+        }
+
+        /* programming languages grid */
+        .main-content-div {
+            padding: 2rem;
+        }
+
+        .outer {
+            width: 50%;
+            padding: 0.7rem 1rem;
+        }
+
+        .inner {
+            padding: 1rem;
+        }
+
+        /* pl grids  */
+        .grid {
+            padding: 2rem;
+        }
+
+        .outside {
+            width: 25%;
+            padding: 0.7rem 1rem;
+        }
+
+        .inside {
+            padding: 2rem;
+        }
+
+        .excel h1,
+        .googlesheets h1,
+        .machinelearning h1,
+        .ai h1,
+        .c h1,
+        .csharp h1 {
+            font-size: 2rem;
+            padding: 2rem;
+        }
+    }
+
+    @media screen and (max-width: 1024px) {
+
+        /* navbar */
+        .logo {
+            height: auto;
+            width: 10%;
+        }
+
+        .left-navitems {
+            width: 90%;
+            display: inline;
+        }
+
+        .navitem-videos a {
+            display: none;
+        }
+
+        .upgrade-btn,
+        .get-certified-btn {
+            display: none;
+        }
+
+        .right-navitems {
+            width: 100%;
+        }
+
+        /* search button section */
+        .title-and-subtitle h1 {
+            font-size: 5rem;
+        }
+
+        .title-and-subtitle h3 {
+            font-size: 1.5rem;
+        }
+
+        .search-box {
+            width: 70%;
+        }
+
+        .where-to-start a {
+            font-size: 1.5rem;
+        }
+
+        /* content starts  */
+        .left-section {
+            width: 50%;
+        }
+
+        .left-section button {
+            width: 60%;
+        }
+
+        .left-section h1 {
+            font-size: 4rem;
+        }
+
+        .left-section h3 {
+            font-size: 1.5rem;
+        }
+
+        .right-section {
+            padding: 0.5rem;
+            width: 50%;
+        }
+
+        /* programming languages grid */
+        .main-content-div {
+            padding: 2rem;
+        }
+
+        .outer {
+            width: 50%;
+            padding: 0.7rem 1rem;
+        }
+
+        .inner {
+            padding: 1.5rem;
+        }
+
+        .inner button {
+            width: 60%;
+        }
+
+        /* pl grids  */
+        .grid {
+            padding: 2rem;
+        }
+
+        .outside {
+            width: 33.33%;
+            padding: 0.7rem 1rem;
+        }
+
+        .inside {
+            padding: 2rem;
+        }
+
+        .excel h1,
+        .googlesheets h1,
+        .machinelearning h1,
+        .ai h1,
+        .c h1,
+        .csharp h1 {
+            font-size: 2rem;
+            padding: 2rem;
+        }
+
+        /* w3schools code editor */
+        .code-editor h1 {
+            font-size: 4rem;
+            padding: 2rem 1rem 0;
+        }
+
+        .code-editor h3 {
+            padding: 0 3rem 1rem;
+            font-size: 1rem;
+        }
+
+        .code-editor-box {
+            width: 90%;
+        }
+
+        .fa-circle {
+            display: none;
+        }
+
+        .buttons-container {
+            width: 90%;
+        }
+
+        .buttons-container button {
+            width: 60%;
+        }
+
+        /* w3schools spaces */
+        .get-started-for-free {
+            width: 80%;
+        }
+
+        /* mylearning */
+        .mylearning-image img {
+            width: 100%;
+        }
+
+        .mylearning-signup-for-free {
+            width: 80%;
+        }
+
+        /* become a pro user */
+        .formlist {
+            width: 50%;
+            margin: auto;
+        }
+
+        .learn-more {
+            width: 80%;
+        }
+
+        /* exercise and quizzes */
+        .exercise-and-quizzes {
+            padding: 1rem;
+        }
+
+        .subtitle {
+            padding: 2rem 0 0;
+        }
+
+        .block {
+            width: 50%;
+        }
+
+        .exercise,
+        .quizzes {
+            padding: 1rem;
+        }
+
+        /* web templates section  */
+        .web-templates {
+            padding: 1rem;
+        }
+
+        .browse-templates {
+            width: 80%;
+        }
+
+        /* kickstart your career */
+        .kickstart-your-career {
+            padding: 1rem;
+        }
+
+        .kickstart-your-career h2 {
+            font-size: 2rem;
+            padding: 0.5rem 0 1rem;
+        }
+
+        .get-started-to-kick-button {
+            text-align: center;
+            margin: auto;
+        }
+
+        .get-started-tokick {
+            width: 90%;
+            padding: 1rem 3rem;
+        }
+
+        /* how to */
+        .howto {
+            padding: 1rem;
+        }
+
+        .howto-box {
+            width: 90%;
+        }
+
+        .addressbar {
+            margin-left: 1rem;
+        }
+
+        .stand {
+            height: 60px;
+            width: 10%;
+        }
+
+        .learn-how-to-button button {
+            width: 80%;
+            padding: 1rem;
+        }
+
+        /* footer  */
+        footer {
+            width: 100%;
+        }
+
+        .left-buttons {
+            width: 80%;
+            display: inline;
+        }
+
+        .newsletter-fot,
+        .support-fot {
+            display: none;
+        }
+
+        .right-buttons {
+            width: 20%;
+            display: inline;
+        }
+
+        .social-media-contacts {
+            width: 100%;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+
+        /* navbar */
+        .logo {
+            height: auto;
+            width: 10%;
+        }
+
+        .left-navitems {
+            width: 20%;
+        }
+
+        .navitem-references a,
+        .navitem-exercise a,
+        .navitem-videos a {
+            display: none;
+        }
+
+        .upgrade-btn,
+        .get-certified-btn,
+        .free-website-btn {
+            display: none;
+        }
+
+        .right-navitems {
+            width: 60%;
+            float: right;
+        }
+
+        .login-btn {
+            float: left;
+            display: inline;
+        }
+
+        /* search button section */
+        .title-and-subtitle h1 {
+            font-size: 4rem;
+        }
+
+        .title-and-subtitle h3 {
+            font-size: 1rem;
+        }
+
+        .search-box {
+            width: 60%;
+        }
+
+        .where-to-start a {
+            font-size: 1rem;
+        }
+
+        /* content starts  */
+        .left-section {
+            width: 100%;
+        }
+
+        .left-section button {
+            width: 30%;
+        }
+
+        .right-section {
+            padding: 0.5rem;
+            width: 100%;
+        }
+
+        /* programming languages grid */
+        .main-content-div {
+            padding: 2rem;
+        }
+
+        .outer {
+            width: 100%;
+            padding: 0.7rem 1rem;
+        }
+
+        .inner {
+            padding: 1rem;
+        }
+
+        .c,
+        .csharp {
+            padding: 2rem;
+        }
+
+        /* pl grids  */
+        .grid {
+            padding: 2rem;
+        }
+
+        .outside {
+            width: 50%;
+            padding: 0.7rem 1rem;
+        }
+
+        .inside {
+            padding: 2rem;
+        }
+
+        .excel h1,
+        .googlesheets h1,
+        .machinelearning h1,
+        .ai h1,
+        .c h1,
+        .csharp h1 {
+            font-size: 2rem;
+            padding: 2rem;
+        }
+
+        /* w3schools code editor */
+        .code-editor h1 {
+            font-size: 4rem;
+            padding: 2rem 1rem 0;
+        }
+
+        .code-editor h3 {
+            padding: 0 3rem 1rem;
+            font-size: 1rem;
+        }
+
+        .code-editor-box {
+            width: 90%;
+        }
+
+        .fa-circle {
+            display: none;
+        }
+
+        .buttons-container {
+            width: 90%;
+        }
+
+        .buttons-container button {
+            width: 60%;
+        }
+
+        /* w3schools spaces */
+        .get-started-for-free {
+            width: 80%;
+        }
+
+        /* mylearning */
+        .mylearning-image img {
+            width: 100%;
+        }
+
+        .mylearning-signup-for-free {
+            width: 80%;
+        }
+
+        /* become a pro user */
+        .formlist {
+            width: 50%;
+        }
+
+        .learn-more {
+            width: 80%;
+        }
+
+        /* exercise and quizzes */
+        .exercise-and-quizzes {
+            padding: 1rem;
+        }
+
+        .subtitle {
+            padding: 2rem 0 0;
+        }
+
+        .block {
+            width: 50%;
+        }
+
+        .exercise,
+        .quizzes {
+            padding: 1rem;
+        }
+
+        /* web templates section  */
+        .web-templates {
+            padding: 1rem;
+        }
+
+        .browse-templates {
+            width: 80%;
+        }
+
+        /* kickstart your career */
+        .kickstart-your-career {
+            padding: 1rem;
+        }
+
+        .kickstart-your-career h2 {
+            font-size: 2rem;
+            padding: 0.5rem 0 1rem;
+        }
+
+        .get-started-to-kick-button {
+            text-align: center;
+            margin: auto;
+        }
+
+        .get-started-tokick {
+            width: 90%;
+            padding: 1rem 3rem;
+        }
+
+        /* how to */
+        .howto {
+            padding: 1rem;
+        }
+
+        .howto-box {
+            width: 90%;
+        }
+
+        .addressbar {
+            margin-left: 1rem;
+        }
+
+        .stand {
+            height: 60px;
+            width: 10%;
+        }
+
+        .learn-how-to-button button {
+            width: 80%;
+            padding: 1rem;
+        }
+
+        /* footer  */
+        footer {
+            width: 100%;
+        }
+
+        .footer-buttons {
+            width: 80%;
+            margin: auto;
+        }
+
+        .left-buttons {
+            width: 100%;
+            margin: auto;
+        }
+
+        .quizzes-fot,
+        .exercises-fot,
+        .certificate-fot {
+            display: inline;
+            width: 29%;
+        }
+
+        .upgrade-fot,
+        .space-fot,
+        .support-fot,
+        .newsletter-fot {
+            display: block;
+            width: 96%;
+        }
+
+        .forum-fot,
+        .about {
+            width: 50%;
+        }
+
+        .social-media-contacts {
+            width: 100%;
+        }
+    }
+
+    @media screen and (max-width:480px) {
+
+        /* navbar */
+        .logo {
+            height: auto;
+            width: 10%;
+        }
+
+        .left-navitems {
+            width: 20%;
+        }
+
+        .navitem-references a,
+        .navitem-exercise a,
+        .navitem-videos a {
+            display: none;
+        }
+
+        .upgrade-btn,
+        .get-certified-btn,
+        .free-website-btn {
+            display: none;
+        }
+
+        .login-btn {
+            display: inline;
+        }
+
+        /* content starts  */
+        .left-section {
+            width: 100%;
+        }
+
+        .left-section h1 {
+            font-size: 2rem;
+        }
+
+        .left-section button {
+            width: 60%;
+        }
+
+        .right-section {
+            display: none;
+        }
+
+        /* programming languages grid */
+        .main-content-div {
+            padding: 1rem;
+        }
+
+        .outer {
+            width: 100%;
+            padding: 0.7rem 0.5rem;
+        }
+
+        .inner {
+            padding: 1rem;
+        }
+
+        /* pl grids  */
+        .grid {
+            padding: 1.5rem;
+        }
+
+        .outside {
+            width: 100%;
+            padding: 1rem 0;
+        }
+
+        .inside {
+            padding: 3rem;
+        }
+
+        /* w3schools code editor */
+        .code-editor-box {
+            width: 80%;
+        }
+
+        .fa-circle {
+            display: none;
+        }
+
+        .buttons-container {
+            width: 80%;
+        }
+
+        .buttons-container button {
+            width: 100%;
+        }
+
+        /* w3schools spaces */
+        .get-started-for-free {
+            width: 80%;
+        }
+
+        /* mylearning */
+        .mylearning-wrapper h1 {
+            font-size: 4rem;
+        }
+
+        .mylearning-image img {
+            width: 100%;
+        }
+
+        .mylearning-signup-for-free {
+            width: 80%;
+        }
+
+        /* become a pro user */
+        .formlist {
+            width: 80%;
+        }
+
+        .learn-more {
+            width: 80%;
+        }
+
+        /* exercise and quizzes */
+        .exercise-and-quizzes {
+            padding: 1rem;
+        }
+
+        .subtitle {
+            padding: 2rem 0 0;
+        }
+
+        .block {
+            width: 100%;
+        }
+
+        .exercise,
+        .quizzes {
+            padding: 1rem;
+        }
+
+        /* web templates section  */
+        .web-templates h1 {
+            font-size: 3rem;
+        }
+
+        .web-templates {
+            padding: 1rem;
+        }
+
+        .browse-templates {
+            width: 80%;
+        }
+
+        /* kickstart your career */
+        .kickstart-your-career {
+            padding: 1rem;
+        }
+
+        .kickstart-your-career h2 {
+            font-size: 2rem;
+            padding: 0.5rem 0 1rem;
+        }
+
+        .get-started-to-kick-button {
+            text-align: center;
+            margin: auto;
+        }
+
+        .get-started-tokick {
+            width: 90%;
+            padding: 1rem 3rem;
+        }
+
+        /* how to */
+        .howto {
+            padding: 1rem;
+        }
+
+        .howto-box {
+            width: 90%;
+        }
+
+        .stand {
+            height: 30px;
+            width: 10%;
+        }
+
+        .learn-how-to-button button {
+            width: 80%;
+            padding: 1rem;
+        }
+
+        /* footer  */
+        .left-buttons {
+            width: 100%;
+        }
+
+        .left-buttons button {
+            display: block;
+            width: 100%;
+        }
+
+        .right-buttons {
+            width: 100%;
+            padding-left: 4.5rem;
+        }
+
+        .fa-thumbs-up {
+            font-size: 2rem;
+        }
+
+    }

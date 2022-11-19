@@ -11,11 +11,14 @@ body{
     background-color: #d9eee1 !important;
 }
 /* navbar section */
-
+/* header{
+    position: sticky;
+    top:0;
+    z-index: 3;
+} */
 .navbar-wraper {
     background: #1D2A35;
 }
-
 .navbar-wraper::after {
     content: "";
     display: table;
@@ -660,6 +663,7 @@ button:hover {
     font-weight: bold;
     line-height: 2;
 }
+
 .learn-more {
     background-color: #04aa6d;
     color: #fff;
@@ -887,7 +891,7 @@ footer::after{
     color:#fff;
     background-color: #1d2a35;
     text-transform: uppercase;
-    margin: 0 0.5rem 1rem;
+    margin: 0.5rem;
 }
 .left-buttons{
     float:left;
@@ -895,11 +899,10 @@ footer::after{
 }
 .right-buttons{
     float:left;
-    width: 30%;
-    padding-left: 13rem;
+    width: 20%;
 }
 .right-buttons button{
-    display: inline-block;
+    display: inline;
     color:#fff;
     font-weight:400;
     background-color: transparent;
