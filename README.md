@@ -10,6 +10,6 @@ w3Schools homepage clone using **HTML** and **CSS** only.
 - Git
 - Github
 
-### Live Preview Link [Here](https://kshetritej.github.io/w3schools)
+**Live Preview Link [Here](https://kshetritej.github.io/w3schools)**
 
-### You can check Original w3schools website [here](https://www.w3schools.com/)
+**You can check Original w3schools website [here](https://www.w3schools.com/)**
