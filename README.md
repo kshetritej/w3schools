@@ -1,16 +1,15 @@
-# w3schools Clone
-This is my first website clone using HTML and CSS only. In this repository I have uploaded codes of popular website 'W3Schools'. 
-All codes are raw written by me and have many errors too. But yeah, somehow it looks good, at least for me.
+## w3Schools Clone
+w3Schools homepage clone using **HTML** and **CSS** only.
 
-## Technologies Used
-* HTML
-* CSS
+### Technologies Used
+- HTML
+- CSS
 
-## Tools Used
-* VS Code
-* Git
-* Github
+### Tools Used
+- VS Code
+- Git
+- Github
 
-## Live Preview Link
+### Live Preview Link [Here](https://kshetritej.github.io/w3schools)
 
-[Let's Go](https://kshetritej.github.io/w3schools)
+### You can check Original w3schools website [here](https://www.w3schools.com/)
