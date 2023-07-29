@@ -18,17 +18,18 @@ body{
     justify-content: space-between;
     align-items: center;
 }
-.navbar-wraper::after {
+/* .navbar-wraper::after {
     content: "";
     display: table;
     clear: both;
-}
+} */
 .logo {
-    float: left;
-    width: 5%;  
-    padding:  0 0.2rem;
+    padding: 0.5rem;
 }
-
+.left-navitems{
+    display: flex;
+    align-items: center;
+}
 .right-navitems ul {
     display: flex;
     align-items: center;
@@ -38,6 +39,12 @@ body{
     color: #fff;
     font-weight: 600;
     font-size: 1.5rem;
+    display: none;
+}
+.ri-close-fill{
+    color: #fff;
+    font-weight: 800;
+    font-size: 2rem;
     display: none;
 }
 

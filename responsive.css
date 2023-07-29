@@ -1,19 +1,11 @@
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1282px) {
 
     /* navbar */
-    .logo {
-        width: 5%;
-        padding: 0.5rem;
+    .nav-buttons{
+        display: none;
     }
-
-    .left-navitems {
-        width: 40%;
-        display: inline;
-    }
-
-    .right-navitems {
-        width: 55%;
-        display: inline;
+    .ri-menu-3-fill{
+        display: initial;
     }
 
     /* programming languages grid */
@@ -34,28 +26,6 @@
     @media screen and (max-width: 1200px) {
 
         /* navbar */
-        .logo {
-            height: auto;
-            width: 10%;
-        }
-
-        .left-navitems {
-            width: 40%;
-            display: inline;
-        }
-
-        .navitem-videos a {
-            display: none;
-        }
-
-        .upgrade-btn,
-        .get-certified-btn {
-            display: none;
-        }
-
-        .right-navitems {
-            width: 50%;
-        }
 
         /* programming languages grid */
         .main-content-div {
@@ -98,29 +68,6 @@
 
     @media screen and (max-width: 1024px) {
 
-        /* navbar */
-        .logo {
-            height: auto;
-            width: 10%;
-        }
-
-        .left-navitems {
-            width: 90%;
-            display: inline;
-        }
-
-        .navitem-videos a {
-            display: none;
-        }
-
-        .upgrade-btn,
-        .get-certified-btn {
-            display: none;
-        }
-
-        .right-navitems {
-            width: 100%;
-        }
 
         /* search button section */
         .title-and-subtitle h1 {
@@ -349,38 +296,11 @@
         }
     }
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 800px) {
 
         /* navbar */
-        .logo {
-            height: auto;
-            width: 10%;
-        }
-
-        .left-navitems {
-            width: 20%;
-        }
-
-        .navitem-references a,
-        .navitem-exercise a,
-        .navitem-videos a {
+        .right-navitems-icons{
             display: none;
-        }
-
-        .upgrade-btn,
-        .get-certified-btn,
-        .free-website-btn {
-            display: none;
-        }
-
-        .right-navitems {
-            width: 60%;
-            float: right;
-        }
-
-        .login-btn {
-            float: left;
-            display: inline;
         }
 
         /* search button section */
@@ -617,18 +537,15 @@
         }
     }
 
+    @media screen and (max-width:600px) {
+        .left-navitems > ul{
+        display: none;
+        }
+
+    }
     @media screen and (max-width:480px) {
 
         /* navbar */
-        .logo {
-            height: auto;
-            width: 10%;
-        }
-
-        .left-navitems {
-            width: 20%;
-        }
-
         .navitem-references a,
         .navitem-exercise a,
         .navitem-videos a {
@@ -639,10 +556,6 @@
         .get-certified-btn,
         .free-website-btn {
             display: none;
-        }
-
-        .login-btn {
-            display: inline;
         }
 
         /* content starts  */
