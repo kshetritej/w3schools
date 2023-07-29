@@ -1,4 +1,4 @@
-### w3Schools (2022) Clone
+### W3Schools (2022) Clone
 w3Schools homepage clone using **HTML** and **CSS** only.
 
 
