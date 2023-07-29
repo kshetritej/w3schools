@@ -1,6 +1,5 @@
 const menuIcon = document.querySelector(".ri-menu-3-fill");
 const leftNavIcons = document.querySelector(".left-navitems ul");
-const rightNavIcons = document.querySelector(".right-navitems");
 const closeBtn = document.querySelector(".ri-close-fill");
 
 
