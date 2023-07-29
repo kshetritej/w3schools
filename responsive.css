@@ -2,8 +2,8 @@
 
     /* navbar */
     .logo {
-        height: auto;
         width: 5%;
+        padding: 0.5rem;
     }
 
     .left-navitems {

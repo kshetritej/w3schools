@@ -10,14 +10,13 @@
 body{
     background-color: #d9eee1 !important;
 }
-/* navbar section */
-/* header{
-    position: sticky;
-    top:0;
-    z-index: 3;
-} */
+
 .navbar-wraper {
+    width: 100%;
     background: #1D2A35;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .navbar-wraper::after {
     content: "";
@@ -29,21 +28,19 @@ body{
     width: 5%;  
     padding:  0 0.2rem;
 }
-.logo img{
-    width: auto;
-    height: auto;
+
+.right-navitems ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-.left-navitems {
-    float: left;
-    width: 45%;
-    padding:1.3rem 1rem;
+.ri-menu-3-fill{
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.5rem;
+    display: none;
 }
 
-.right-navitems {
-    float: left;
-    width: 50%;
-    padding: 1rem;
-}
 .navbar-wraper ul li {
     list-style-type: none;
     display: inline-block;
@@ -58,6 +55,7 @@ body{
 }
 .navbar-wraper ul li a:hover{
     background-color: #04aa6d;
+    overflow: hidden;
 }
 /* navbar section ends */
 
@@ -104,7 +102,7 @@ button:hover {
 /* learn to code secton starts */
 .learn-to-code {
     text-align: center;
-    padding: 4rem 1rem;
+    padding: 4rem 0rem;
     background: #0d1721;
 }
 
